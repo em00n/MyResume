@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Main2Activity">
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleIv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/basicinf" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".5"
+        android:layout_height="0dp">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvCv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="7dp"
+            android:background="#000"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            app:cardElevation="7dp">
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/callBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/call"
+                        android:gravity="center"
+
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/emailBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/gmail"
+
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/facebookBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/facebook"
+
+                        />
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/a"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text="Name :"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Fathers Name :"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Mothers Name :"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Phon no :"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Email :"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Emon hosen"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Anowar hosen"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Laila begum"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="01861791334"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:text="emonoffline@gmail.com"
+                android:gravity="center_vertical"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+
+    <!--android:layout_weight=".5">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/callCv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="7dp"-->
+    <!--app:cardCornerRadius="5dp"-->
+    <!--app:cardBackgroundColor="@color/colorAccent"-->
+
+
+    <!--app:cardElevation="5dp">-->
+    <!--<TextView-->
+    <!--android:id="@+id/callTv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:textSize="27dp"-->
+    <!--android:textColor="#fff"-->
+    <!--android:gravity="center"-->
+
+    <!--android:text="call"-->
+    <!--android:textAlignment="center"-->
+
+    <!--/>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/emailCv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="7dp"-->
+    <!--app:cardCornerRadius="5dp"-->
+    <!--app:cardBackgroundColor="@color/colorAccent"-->
+
+
+    <!--app:cardElevation="5dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/emailTv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="email"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#fff"-->
+    <!--android:textSize="27dp"-->
+
+    <!--/>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/facebookCv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="7dp"-->
+    <!--app:cardCornerRadius="5dp"-->
+    <!--app:cardBackgroundColor="@color/colorAccent"-->
+
+
+    <!--app:cardElevation="5dp">-->
+    <!--<TextView-->
+    <!--android:id="@+id/facebookTv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+
+    <!--android:textColor="#fff"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="27dp"-->
+    <!--android:text="facebook"-->
+
+    <!--android:textAlignment="center"-->
+
+    <!--/>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/facebookBtn"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentEnd="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignTop="@+id/callBtn"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginEnd="24dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="#FDB242"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="facebook"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textAlignment="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="#fff"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentRight="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="24dp" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
